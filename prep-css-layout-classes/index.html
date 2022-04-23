@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h3 {
+      border: solid rgb(235, 177, 69);
+      display: inline;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+      border: solid rgb(235, 177, 69);
+      padding: 20px;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Indian Cajones: From Memery</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/crusade.jpg" width=100%;>
+        <h3>Raiders of the Lost Ark</h3>
+        <p>Our protagonist, Indiana Cajones, meets with the antagonist who is
+          looking for the fabled lost ark, which is rumored to contain an item
+          that allows one to talk to Jesus. After hearing the antagonist's plan,
+          Cajones responds with "You want to talk to God? Let's go see him together...",
+          and he chucks two live hand grenades into the center of the room. The antagonist
+          dies from the explosion, but Cajones ends up surviving the blast because Spielberg needed him to
+          enter the temple of doom later on.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/raiders.jpg" width=100%;>
+        <h3>Temple of Doom</h3>
+        <p>While on the run, Cajones and his party stumbles upon a village and is asked
+          to retrieve a rock and rescue some missing children. He agrees because shiny rock!
+          and eventually finds his way to The Temple of Doom through a series of underground
+          tunnels. In the temple, he spots a cult gathering, with the leader pulling a heart out of a person
+          with his bare hands. Cajones decides he's not touching that with an 80-foot pole and instead calls for back up
+          by sending messages to the US government, saying there is oil and weapons of mass
+          destruction at his location. Within 48 hours, the US military arrives and overpowers
+          the cult. The rock is returned and the children are saved.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg" width=100%;>
+        <h3>The Last Crusade</h3>
+        <p>After his dad went to buy some milk at the store, but never came back, Cajones
+           tries to pursue the holy grail, which grants immortality. Coincidentally, the Nazis
+           were after the cup as well. As a man from Indiana, Indiana could not just let that happen.
+           He formed a party and began searching. After a few close encounters with death, the party
+           eventually find thes the holy grail in a temple. However, a greedy wench tries to take it
+           with her; the temple crumbles and the grail is lost.
+
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
