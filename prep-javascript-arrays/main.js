@@ -9,3 +9,7 @@ console.log("the third element of the array is " + thirdElement);
 
 var length = languages.length;
 console.log("the length of this array is " + length);
+
+var lastIndex = length - 1;
+var lastElement = languages[lastIndex];
+console.log("The last element of the arry is", lastElement);
